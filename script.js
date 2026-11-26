@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
   setInterval(function () {
     robo_d = (robo.width > 100 || robo.width <5)?robo_d*-1:robo_d;
     robo.width+= robo_d;
-  }, 1000);
+  }, 400);
 
   
 });
